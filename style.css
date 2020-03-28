@@ -1,0 +1,21 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+button {
+  margin: 20px;
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+}
+button:hover {
+  cursor: pointer;
+}
+#btn1:hover {
+  color: white;
+  background-color: gold;
+}
+#btn2:hover {
+  color: white;
+  background-color: gold;
+}

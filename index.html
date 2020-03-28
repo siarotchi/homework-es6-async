@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>HomeWork</title>
+  </head>
+  <body>
+    <button id="btn1">Result</button>
+    <button id="btn2">Module</button>
+
+    <script src="async.js"></script>
+    <script type="module">
+      import { helloFn, asyncFn } from "./module.js";
+
+      const module = document
+        .getElementById("btn2")
+        .addEventListener("click", () => asyncFn());
+    </script>
+  </body>
+</html>
